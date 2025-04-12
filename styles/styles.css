@@ -115,6 +115,10 @@ main {
   padding: 5%;
 }
 
+.footer {
+  max-width: 100%;
+}
+
 .info-bar {
   height: 20px;
   color: black;
@@ -123,7 +127,7 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0.5rem 1rem;
+  padding: 20px 0;
 }
 
 .info-bar .center {
@@ -131,13 +135,16 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
 }
 
 .info-bar .left {
   flex: 1;
+  margin-left: 5px;
 }
 
 .info-bar .right {
   flex: 1;
   text-align: right;
+  margin-right: 5px;
 }
